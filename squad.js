@@ -6,10 +6,10 @@ const main = document.querySelector('main');
       
 // Define an object with URL properties
 const data = {
-homeUrl: "http://127.0.0.1:5500/home.html",
-newsUrl: "http://127.0.0.1:5500/news.html",
-historyUrl: "http://127.0.0.1:5500/history.html",
-storeUrl: "http://127.0.0.1:5500/store.html"
+homeUrl: "https://mohamedabdimohammud.github.io/phase-1-project/",
+newsUrl: "https://mohamedabdimohammud.github.io/phase-1-project-news/",
+historyUrl: "https://mohamedabdimohammud.github.io/phase-1-project-history/",
+storeUrl: "https://mohamedabdimohammud.github.io/phase-1-project-store/"
 };
       
 // Add event listeners to buttons, using the URL properties from the data object
@@ -27,4 +27,4 @@ window.location.href = data.historyUrl;
       
 storeBtn.addEventListener('click', function() {
 window.location.href = data.storeUrl;
-});
+}); 
